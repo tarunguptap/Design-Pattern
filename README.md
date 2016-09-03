@@ -8,7 +8,12 @@
 	A class creational pattern uses inheritance to vary the class thats instantiated, whereas an object creational pattern will delegate instantiation to another object. 
 	The creational design patterns allow configuring of a software system as a system with product objects that vary widely in structure and functionality. Such configuration can be static, i.e., specified at compile-time, or dynamic, i.e., specified at run-time.
  	For Example : Factory Design Pattern
- 
+ 	#### Singleton Pattern
+ 	#### Factory Pattern
+ 	#### Abstract Factory Pattern
+ 	#### Builder Pattern
+ 	#### Prototype Pattern
+ 	
 ### Structural design patterns
    Structural patterns are concerned with how classes and objects are composed to form larger structures. 
    Structural class patterns use inheritance to compose interfaces or implementations. For example, multiple inheritance can be seen as a kind of structural design patterns, since it uses inheritance to mix two or more classes into a new one. 
