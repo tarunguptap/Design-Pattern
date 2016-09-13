@@ -15,7 +15,7 @@ public class CurrencyServiceFactory {
     @Resource
     private CurrencyService usDollarCurrencyService;
 
-    public CurrencyService getCurrencyObject(String country) {
+    public CurrencyService getCurrencyServiceObject(String country) {
         if (country.equalsIgnoreCase("India")) {
             return rupeeCurrencyService;
         } else if (country.equalsIgnoreCase("CANADA")) {
