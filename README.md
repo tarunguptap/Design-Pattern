@@ -25,3 +25,6 @@
    Behavioural class patterns use inheritance to distribute behaviour between classes.
    Behavioural object patterns use object composition rather than inheritance. For example, a behavioural object pattern can describe how a group of object might cooperate to perform a task that no single object can carry out by itself. A typical example is the Observer pattern from the Smalltalk (Model/View/Controller paradigm). Views are used to show the state of data (contained in Model) and they are observers of this data. Whenever a model changes its state all views are notified and they can update the representation of the data in views.
    For Example : Startegy Design Pattern, Mediator Design Pattern
+   
+   
+To change gradle default location in eclipse, window -> Preference -> gradle -> gradle user home -> browse the folder
